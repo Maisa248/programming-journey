@@ -1,0 +1,7 @@
+D:\rumaisa imut\Praktik 6.1\Praktik 6.1\obj\Debug\Praktik 6.1.csproj.AssemblyReference.cache
+D:\rumaisa imut\Praktik 6.1\Praktik 6.1\obj\Debug\Praktik 6.1.csproj.CoreCompileInputs.cache
+D:\rumaisa imut\Praktik 6.1\Praktik 6.1\bin\Debug\Praktik 6.1.exe.config
+D:\rumaisa imut\Praktik 6.1\Praktik 6.1\bin\Debug\Praktik 6.1.exe
+D:\rumaisa imut\Praktik 6.1\Praktik 6.1\bin\Debug\Praktik 6.1.pdb
+D:\rumaisa imut\Praktik 6.1\Praktik 6.1\obj\Debug\Praktik 6.1.exe
+D:\rumaisa imut\Praktik 6.1\Praktik 6.1\obj\Debug\Praktik 6.1.pdb

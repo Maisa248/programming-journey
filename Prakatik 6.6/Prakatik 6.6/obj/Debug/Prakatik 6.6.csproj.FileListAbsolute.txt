@@ -1,0 +1,7 @@
+D:\rumaisa imut\Prakatik 6.6\Prakatik 6.6\bin\Debug\Prakatik 6.6.exe.config
+D:\rumaisa imut\Prakatik 6.6\Prakatik 6.6\bin\Debug\Prakatik 6.6.exe
+D:\rumaisa imut\Prakatik 6.6\Prakatik 6.6\bin\Debug\Prakatik 6.6.pdb
+D:\rumaisa imut\Prakatik 6.6\Prakatik 6.6\obj\Debug\Prakatik 6.6.csproj.AssemblyReference.cache
+D:\rumaisa imut\Prakatik 6.6\Prakatik 6.6\obj\Debug\Prakatik 6.6.csproj.CoreCompileInputs.cache
+D:\rumaisa imut\Prakatik 6.6\Prakatik 6.6\obj\Debug\Prakatik 6.6.exe
+D:\rumaisa imut\Prakatik 6.6\Prakatik 6.6\obj\Debug\Prakatik 6.6.pdb

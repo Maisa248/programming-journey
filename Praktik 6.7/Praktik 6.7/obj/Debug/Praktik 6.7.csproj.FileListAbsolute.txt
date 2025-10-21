@@ -1,0 +1,2 @@
+D:\rumaisa imut\Praktik 6.7\Praktik 6.7\obj\Debug\Praktik 6.7.csproj.AssemblyReference.cache
+D:\rumaisa imut\Praktik 6.7\Praktik 6.7\obj\Debug\Praktik 6.7.csproj.CoreCompileInputs.cache
