@@ -1,0 +1,8 @@
+D:\rumaisa imut\latihan while jumlah total 1-5\latihan while jumlah total 1-5\bin\Debug\latihan while jumlah total 1-5.exe.config
+D:\rumaisa imut\latihan while jumlah total 1-5\latihan while jumlah total 1-5\bin\Debug\latihan while jumlah total 1-5.exe
+D:\rumaisa imut\latihan while jumlah total 1-5\latihan while jumlah total 1-5\bin\Debug\latihan while jumlah total 1-5.pdb
+D:\rumaisa imut\latihan while jumlah total 1-5\latihan while jumlah total 1-5\obj\Debug\latihan while jumlah total 1-5.csproj.AssemblyReference.cache
+D:\rumaisa imut\latihan while jumlah total 1-5\latihan while jumlah total 1-5\obj\Debug\latihan while jumlah total 1-5.csproj.CoreCompileInputs.cache
+D:\rumaisa imut\latihan while jumlah total 1-5\latihan while jumlah total 1-5\obj\Debug\latihan while jumlah total 1-5.exe
+D:\rumaisa imut\latihan while jumlah total 1-5\latihan while jumlah total 1-5\obj\Debug\latihan while jumlah total 1-5.pdb
+D:\rumaisa imut\latihan while jumlah total 1-5\latihan while jumlah total 1-5\obj\Debug\latihan while jumlah total 1-5.exe.config

@@ -1,0 +1,8 @@
+D:\rumaisa imut\Latihan for perkalian 5\Latihan for perkalian 5\bin\Debug\Latihan for perkalian 5.exe.config
+D:\rumaisa imut\Latihan for perkalian 5\Latihan for perkalian 5\bin\Debug\Latihan for perkalian 5.exe
+D:\rumaisa imut\Latihan for perkalian 5\Latihan for perkalian 5\bin\Debug\Latihan for perkalian 5.pdb
+D:\rumaisa imut\Latihan for perkalian 5\Latihan for perkalian 5\obj\Debug\Latihan for perkalian 5.csproj.AssemblyReference.cache
+D:\rumaisa imut\Latihan for perkalian 5\Latihan for perkalian 5\obj\Debug\Latihan for perkalian 5.csproj.CoreCompileInputs.cache
+D:\rumaisa imut\Latihan for perkalian 5\Latihan for perkalian 5\obj\Debug\Latihan for perkalian 5.exe
+D:\rumaisa imut\Latihan for perkalian 5\Latihan for perkalian 5\obj\Debug\Latihan for perkalian 5.pdb
+D:\rumaisa imut\Latihan for perkalian 5\Latihan for perkalian 5\obj\Debug\Latihan for perkalian 5.exe.config
