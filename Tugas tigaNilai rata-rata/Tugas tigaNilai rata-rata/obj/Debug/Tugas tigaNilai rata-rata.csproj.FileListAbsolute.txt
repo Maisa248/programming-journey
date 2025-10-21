@@ -1,0 +1,8 @@
+D:\rumaisa imut\Tugas tigaNilai rata-rata\Tugas tigaNilai rata-rata\bin\Debug\Tugas tigaNilai rata-rata.exe.config
+D:\rumaisa imut\Tugas tigaNilai rata-rata\Tugas tigaNilai rata-rata\bin\Debug\Tugas tigaNilai rata-rata.exe
+D:\rumaisa imut\Tugas tigaNilai rata-rata\Tugas tigaNilai rata-rata\bin\Debug\Tugas tigaNilai rata-rata.pdb
+D:\rumaisa imut\Tugas tigaNilai rata-rata\Tugas tigaNilai rata-rata\obj\Debug\Tugas tigaNilai rata-rata.csproj.AssemblyReference.cache
+D:\rumaisa imut\Tugas tigaNilai rata-rata\Tugas tigaNilai rata-rata\obj\Debug\Tugas tigaNilai rata-rata.csproj.CoreCompileInputs.cache
+D:\rumaisa imut\Tugas tigaNilai rata-rata\Tugas tigaNilai rata-rata\obj\Debug\Tugas tigaNilai rata-rata.exe
+D:\rumaisa imut\Tugas tigaNilai rata-rata\Tugas tigaNilai rata-rata\obj\Debug\Tugas tigaNilai rata-rata.pdb
+D:\rumaisa imut\Tugas tigaNilai rata-rata\Tugas tigaNilai rata-rata\obj\Debug\Tugas tigaNilai rata-rata.exe.config

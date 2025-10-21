@@ -1,0 +1,7 @@
+D:\rumaisa imut\Praktik 7.2 fungsi\Praktik 7.2 fungsi\bin\Debug\Praktik 7.2 fungsi.exe.config
+D:\rumaisa imut\Praktik 7.2 fungsi\Praktik 7.2 fungsi\bin\Debug\Praktik 7.2 fungsi.exe
+D:\rumaisa imut\Praktik 7.2 fungsi\Praktik 7.2 fungsi\bin\Debug\Praktik 7.2 fungsi.pdb
+D:\rumaisa imut\Praktik 7.2 fungsi\Praktik 7.2 fungsi\obj\Debug\Praktik 7.2 fungsi.csproj.AssemblyReference.cache
+D:\rumaisa imut\Praktik 7.2 fungsi\Praktik 7.2 fungsi\obj\Debug\Praktik 7.2 fungsi.csproj.CoreCompileInputs.cache
+D:\rumaisa imut\Praktik 7.2 fungsi\Praktik 7.2 fungsi\obj\Debug\Praktik 7.2 fungsi.exe
+D:\rumaisa imut\Praktik 7.2 fungsi\Praktik 7.2 fungsi\obj\Debug\Praktik 7.2 fungsi.pdb

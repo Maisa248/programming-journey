@@ -1,0 +1,7 @@
+D:\rumaisa imut\praktik 7.1\praktik 7.1\bin\Debug\praktik 7.1.exe.config
+D:\rumaisa imut\praktik 7.1\praktik 7.1\bin\Debug\praktik 7.1.exe
+D:\rumaisa imut\praktik 7.1\praktik 7.1\bin\Debug\praktik 7.1.pdb
+D:\rumaisa imut\praktik 7.1\praktik 7.1\obj\Debug\praktik 7.1.csproj.AssemblyReference.cache
+D:\rumaisa imut\praktik 7.1\praktik 7.1\obj\Debug\praktik 7.1.csproj.CoreCompileInputs.cache
+D:\rumaisa imut\praktik 7.1\praktik 7.1\obj\Debug\praktik 7.1.exe
+D:\rumaisa imut\praktik 7.1\praktik 7.1\obj\Debug\praktik 7.1.pdb

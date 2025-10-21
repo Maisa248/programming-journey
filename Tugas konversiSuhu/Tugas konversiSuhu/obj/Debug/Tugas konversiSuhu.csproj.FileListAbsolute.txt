@@ -1,0 +1,7 @@
+D:\rumaisa imut\Tugas konversiSuhu\Tugas konversiSuhu\bin\Debug\Tugas konversiSuhu.exe.config
+D:\rumaisa imut\Tugas konversiSuhu\Tugas konversiSuhu\bin\Debug\Tugas konversiSuhu.exe
+D:\rumaisa imut\Tugas konversiSuhu\Tugas konversiSuhu\bin\Debug\Tugas konversiSuhu.pdb
+D:\rumaisa imut\Tugas konversiSuhu\Tugas konversiSuhu\obj\Debug\Tugas konversiSuhu.csproj.AssemblyReference.cache
+D:\rumaisa imut\Tugas konversiSuhu\Tugas konversiSuhu\obj\Debug\Tugas konversiSuhu.csproj.CoreCompileInputs.cache
+D:\rumaisa imut\Tugas konversiSuhu\Tugas konversiSuhu\obj\Debug\Tugas konversiSuhu.exe
+D:\rumaisa imut\Tugas konversiSuhu\Tugas konversiSuhu\obj\Debug\Tugas konversiSuhu.pdb

@@ -1,0 +1,8 @@
+D:\rumaisa imut\fungsi hitung luas\fungsi hitung luas\obj\Debug\fungsi hitung luas.csproj.AssemblyReference.cache
+D:\rumaisa imut\fungsi hitung luas\fungsi hitung luas\obj\Debug\fungsi hitung luas.csproj.CoreCompileInputs.cache
+D:\rumaisa imut\fungsi hitung luas\fungsi hitung luas\bin\Debug\fungsi hitung luas.exe.config
+D:\rumaisa imut\fungsi hitung luas\fungsi hitung luas\bin\Debug\fungsi hitung luas.exe
+D:\rumaisa imut\fungsi hitung luas\fungsi hitung luas\bin\Debug\fungsi hitung luas.pdb
+D:\rumaisa imut\fungsi hitung luas\fungsi hitung luas\obj\Debug\fungsi hitung luas.exe
+D:\rumaisa imut\fungsi hitung luas\fungsi hitung luas\obj\Debug\fungsi hitung luas.pdb
+D:\rumaisa imut\fungsi hitung luas\fungsi hitung luas\obj\Debug\fungsi hitung luas.exe.config

@@ -1,0 +1,7 @@
+D:\rumaisa imut\Tugas tiga bilangan perkalian\Tugas tiga bilangan perkalian\bin\Debug\Tugas tiga bilangan perkalian.exe.config
+D:\rumaisa imut\Tugas tiga bilangan perkalian\Tugas tiga bilangan perkalian\bin\Debug\Tugas tiga bilangan perkalian.exe
+D:\rumaisa imut\Tugas tiga bilangan perkalian\Tugas tiga bilangan perkalian\bin\Debug\Tugas tiga bilangan perkalian.pdb
+D:\rumaisa imut\Tugas tiga bilangan perkalian\Tugas tiga bilangan perkalian\obj\Debug\Tugas tiga bilangan perkalian.csproj.AssemblyReference.cache
+D:\rumaisa imut\Tugas tiga bilangan perkalian\Tugas tiga bilangan perkalian\obj\Debug\Tugas tiga bilangan perkalian.csproj.CoreCompileInputs.cache
+D:\rumaisa imut\Tugas tiga bilangan perkalian\Tugas tiga bilangan perkalian\obj\Debug\Tugas tiga bilangan perkalian.exe
+D:\rumaisa imut\Tugas tiga bilangan perkalian\Tugas tiga bilangan perkalian\obj\Debug\Tugas tiga bilangan perkalian.pdb
