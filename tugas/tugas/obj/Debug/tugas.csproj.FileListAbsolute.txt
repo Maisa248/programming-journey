@@ -1,0 +1,8 @@
+D:\rumaisa imut\tugas\tugas\bin\Debug\tugas.exe.config
+D:\rumaisa imut\tugas\tugas\bin\Debug\tugas.exe
+D:\rumaisa imut\tugas\tugas\bin\Debug\tugas.pdb
+D:\rumaisa imut\tugas\tugas\obj\Debug\tugas.csproj.AssemblyReference.cache
+D:\rumaisa imut\tugas\tugas\obj\Debug\tugas.csproj.CoreCompileInputs.cache
+D:\rumaisa imut\tugas\tugas\obj\Debug\tugas.exe
+D:\rumaisa imut\tugas\tugas\obj\Debug\tugas.pdb
+D:\rumaisa imut\tugas\tugas\obj\Debug\tugas.exe.config
