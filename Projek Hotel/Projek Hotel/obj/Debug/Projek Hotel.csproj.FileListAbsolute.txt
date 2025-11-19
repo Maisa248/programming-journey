@@ -1,0 +1,11 @@
+D:\rumaisa imut\Projek Hotel\Projek Hotel\obj\Debug\Projek Hotel.csproj.AssemblyReference.cache
+D:\rumaisa imut\Projek Hotel\Projek Hotel\obj\Debug\Projek_Hotel.Form1.resources
+D:\rumaisa imut\Projek Hotel\Projek Hotel\obj\Debug\Projek_Hotel.Properties.Resources.resources
+D:\rumaisa imut\Projek Hotel\Projek Hotel\obj\Debug\Projek Hotel.csproj.GenerateResource.cache
+D:\rumaisa imut\Projek Hotel\Projek Hotel\obj\Debug\Projek Hotel.csproj.CoreCompileInputs.cache
+D:\rumaisa imut\Projek Hotel\Projek Hotel\bin\Debug\Projek Hotel.exe.config
+D:\rumaisa imut\Projek Hotel\Projek Hotel\bin\Debug\Projek Hotel.exe
+D:\rumaisa imut\Projek Hotel\Projek Hotel\bin\Debug\Projek Hotel.pdb
+D:\rumaisa imut\Projek Hotel\Projek Hotel\obj\Debug\Projek Hotel.exe
+D:\rumaisa imut\Projek Hotel\Projek Hotel\obj\Debug\Projek Hotel.pdb
+D:\rumaisa imut\Projek Hotel\Projek Hotel\obj\Debug\Projek Hotel.exe.config
