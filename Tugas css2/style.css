@@ -1,0 +1,23 @@
+
+        /* Selektor tag*/
+        p {
+            color: blue;
+        }
+        /* Selektor Kelas */
+        .highlight{
+            background-color: yellow;
+        }
+        /* Selektor ID */
+        #unique-sention {
+            border: 2px solid red;
+            padding: 10px;
+        }
+        /* Seletor Atribut */
+        a[href] {
+            text-decoration: none;
+            color: green;
+        }
+        /* Selektor Universal */
+        *{
+            font-family: Arial, sans-serif;
+        }
