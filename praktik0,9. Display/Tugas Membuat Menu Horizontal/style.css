@@ -1,0 +1,20 @@
+.inline {
+            display: inline-block;
+            background-color: hotpink;
+            margin: 5px;
+            padding: 2%;
+            
+        }
+.h {
+    text-align: center;
+    background-color: deeppink;
+    padding: 3px;
+}
+
+.table {
+    display: block;
+    background-color: deeppink;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
