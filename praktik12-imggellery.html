@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imggallery</title>
+    <style>
+        body {
+            background-color: #666;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+    
+        }
+        h2{
+            text-decoration-line: underline;
+            color: white;
+           
+        }
+        div.gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        div.gallery-item {
+            margin: 10px;
+            border: 1px  solid #ccc;
+            width: 180px;
+            cursor: pointer;
+            transition: transform 0.50s;
+            border-radius: 10px;
+        }
+        div.gallery-item:hover {
+            border: 1px solid #777;
+            transform: scale(1.1);
+        }
+        div.gallery-item img {
+            width: 100px;
+            height: auto;
+        }
+        div.gallery-item div.desc {
+            padding: 15px;
+            text-align: center;
+            background-color: #ccc;
+            border-radius: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <h2>My Gallery</h2>
+    <div class="gallery">
+
+        <div class="gallery-item">
+            <a target="_blank" href="william.jpeg">
+                <img src="william.jpeg" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc">Cinque Terre</div>
+        </div>
+        
+        <div class="gallery-item">
+            <a target="_blank" href="img_william.jpeg">
+                <img src="william.jpeg" alt="green forest" width="600" height="400">
+            </a>
+            <div class="desc">green forest</div>
+        </div>
+
+        <div class="gallery-item">
+            <a target="_blank" href="william2.jpeg">
+                <img src="william2.jpeg" alt="Northenr Lights" width="600" height="400">
+            </a>
+            <div class="desc">Northenr Lights</div>
+        </div>
+        
+        <div class="gallery-item">
+            <a target="_blank" href="img_william3.jpeg">
+                <img src="william3.jpeg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Mountains</div>
+        </div>
+
+
+    </div>
+</body>
+</html>
