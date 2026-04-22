@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid | columns & rows line </title>
+  <style>
+    html, body{
+      margin: 0;
+      padding: 0;
+      background-color: #ddd;
+    }
+    .container{
+      display: grid;
+      width: 600px;
+      margin: 50px auto;
+      /*grid-template-columns: 25px auto 50px;*/
+       grid-auto-rows: 50px 100px auto;
+
+       /*grid line name*/
+       grid-template-columns: [awal] 25px [kolom2] auto [k3] 50px [empat];
+    }
+    .item{
+      background-color: rgb(141, 141, 234);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .item:nth-child(even){
+      background-color: rgb(220, 134, 58);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item"> 1</div>
+    <div class="item"> 2</div>
+    <div class="item"> 3</div>
+    <div class="item"> 4</div>
+    <div class="item"> 5</div>
+    <div class="item"> 6</div>
+    <div class="item"> 7</div>
+    <div class="item"> 8</div>
+    <div class="item"> 9</div>
+    
+  </div>
+</body>
+</html>
