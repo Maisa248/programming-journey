@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout - Pusat Toko Online</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <!-- NAVIGASI -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="products.html">Produk</a></li>
+      <li><a href="about.html">Tentang Kami</a></li>
+    </ul>
+  </nav>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Checkout & Pembayaran</h1>
+    <p>Selesaikan pembelian Anda dengan metode pembayaran yang tersedia</p>
+  </header>
+
+  <!-- NOTIFIKASI -->
+  <div id="notification" class="notification"></div>
+
+  <!-- MAIN SECTION -->
+  <main>
+   <div id="store-items">
+    <div class="checkout-container">
+      
+      <!-- METODE PEMBAYARAN (KIRI) -->
+      <div class="payment-methods">
+        <h2>💳 Pilih Metode Pembayaran</h2>
+
+        <div class="payment-options-grid">
+          <div class="payment-option">
+            <input type="radio" id="transfer" name="payment" value="transfer" checked>
+            <label for="transfer">
+              <div class="payment-icon">🏦</div>
+              <div class="payment-info">
+                <h4>Transfer Bank</h4>
+                <p>Transfer ke rekening bank kami</p>
+                <small>BCA: 1234567890 | BNI: 0987654321 | Mandiri: 1122334455</small>
+              </div>
+            </label>
+          </div>
+
+          <div class="payment-option">
+            <input type="radio" id="ewallet" name="payment" value="ewallet">
+            <label for="ewallet">
+              <div class="payment-icon">📱</div>
+              <div class="payment-info">
+                <h4>E-Wallet</h4>
+                <p>Gopay, OVO, Dana, ShopeePay</p>
+                <small>Bayar instan via aplikasi e-wallet</small>
+              </div>
+            </label>
+          </div>
+
+          <div class="payment-option">
+            <input type="radio" id="cod" name="payment" value="cod">
+            <label for="cod">
+              <div class="payment-icon">🚚</div>
+              <div class="payment-info">
+                <h4>Cash on Delivery (COD)</h4>
+                <p>Bayar saat barang diterima</p>
+                <small>Biaya tambahan Rp 5.000 untuk COD</small>
+              </div>
+            </label>
+          </div>
+
+          <div class="payment-option">
+            <input type="radio" id="credit" name="payment" value="credit">
+            <label for="credit">
+              <div class="payment-icon">💳</div>
+              <div class="payment-info">
+                <h4>Kartu Kredit/Debit</h4>
+                <p>Visa, Mastercard, JCB</p>
+                <small>Cicilan 0% hingga 12 bulan</small>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- RINGKASAN PESANAN & PENGIRIMAN (KANAN) -->
+      <div class="checkout-layout">
+        <!-- RINGKASAN PESANAN -->
+        <div class="order-summary">
+          <h3>📋 Ringkasan Pesanan</h3>
+          <div id="cart-items">
+            <p>Keranjang kosong. Silakan tambahkan produk terlebih dahulu.</p>
+          </div>
+          <div class="total-section">
+            <h3>Total: Rp <span id="total">0</span></h3>
+          </div>
+        </div>
+
+        <!-- ALAMAT PENGIRIMAN -->
+        <div class="shipping-address">
+          <h3>📍 Alamat Pengiriman</h3>
+          
+          <div class="form-group">
+            <label for="recipient-name">Nama Penerima :</label>
+            <input type="text" id="recipient-name" placeholder="Masukkan nama lengkap penerima..." required>
+          </div>
+
+          <div class="form-group">
+            <label for="recipient-phone">Nomor Telepon :</label>
+            <input type="tel" id="recipient-phone" placeholder="Masukkan nomor telepon..." required>
+          </div>
+
+          <div class="form-group">
+            <label for="address">Alamat Lengkap :</label>
+            <textarea id="address" placeholder="Jalan, Desa, RT/RW..." rows="3" required></textarea>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="sub-district">Kecamatan :</label>
+              <input type="text" id="sub-district" placeholder="Kecamatan..." required>
+            </div>
+            <div class="form-group">
+              <label for="district">Kabupaten/Kota :</label>
+              <input type="text" id="district" placeholder="Kabupaten/Kota..." required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="province">Provinsi :</label>
+              <input type="text" id="province" placeholder="Provinsi..." required>
+            </div>
+            <div class="form-group">
+              <label for="postal-code">Kode Pos :</label>
+              <input type="text" id="postal-code" placeholder="Kode Pos..." required>
+          </div>
+
+          <!-- TOMBOL BAYAR -->
+          <button id="pay-button" class="pay-btn" onclick="processPayment()">Bayar Sekarang</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 Pusat Toko Online. Semua Hak Dilindungi.</p>
+  </footer>
+
+  <script>
+    // Load cart dari localStorage atau session
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    let total = 0;
+
+    // Fungsi menampilkan notifikasi toast
+    function showNotification(message, type = 'success') {
+      const notification = document.getElementById('notification');
+      notification.textContent = message;
+      notification.className = 'notification show ' + type;
+      
+      setTimeout(() => {
+        notification.classList.remove('show');
+      }, 3000);
+    }
+
+    function loadCartSummary() {
+      const cartItems = document.getElementById('cart-items');
+      const totalSpan = document.getElementById('total');
+
+      if (cart.length === 0) {
+        cartItems.innerHTML = '<p>Keranjang kosong. Silakan tambahkan produk terlebih dahulu.</p>';
+        totalSpan.textContent = '0';
+        return;
+      }
+
+      let html = '<div class="cart-items-container">';
+      total = 0;
+
+      cart.forEach((item, index) => {
+        html += `
+          <div class="cart-item">
+            <img src="${item.image || 'https://via.placeholder.com/80'}" alt="${item.name}" class="cart-item-image">
+            <div class="cart-item-details">
+              <p class="cart-item-name">${item.name}</p>
+              <p class="cart-item-price">Rp ${item.price.toLocaleString('id-ID')}</p>
+            </div>
+            <button class="btn-remove" onclick="removeFromCart(${index})">❌</button>
+          </div>
+        `;
+        total += item.price;
+      });
+
+      html += '</div>';
+      cartItems.innerHTML = html;
+      totalSpan.textContent = total.toLocaleString('id-ID');
+    }
+
+    function removeFromCart(index) {
+      cart.splice(index, 1);
+      localStorage.setItem('cart', JSON.stringify(cart));
+      loadCartSummary();
+      showNotification('Produk dihapus dari keranjang', 'info');
+    }
+
+    function processPayment() {
+      const selectedPayment = document.querySelector('input[name="payment"]:checked').value;
+      const recipientName = document.getElementById('recipient-name').value.trim();
+      const recipientPhone = document.getElementById('recipient-phone').value.trim();
+      const address = document.getElementById('address').value.trim();
+      const subDistrict = document.getElementById('sub-district').value.trim();
+      const district = document.getElementById('district').value.trim();
+      const province = document.getElementById('province').value.trim();
+      const postalCode = document.getElementById('postal-code').value.trim();
+
+      if (cart.length === 0) {
+        showNotification('Keranjang kosong! Silakan tambahkan produk terlebih dahulu.', 'error');
+        return;
+      }
+
+      if (!recipientName || !recipientPhone || !address || !subDistrict || !district || !province || !postalCode) {
+        showNotification('Silakan lengkapi semua data alamat pengiriman!', 'error');
+        return;
+      }
+
+      let paymentMessage = '';
+      let paymentMethodName = '';
+      
+      switch(selectedPayment) {
+        case 'transfer':
+          paymentMessage = 'Silakan transfer ke rekening yang tertera. Konfirmasi pembayaran akan diproses dalam 1x24 jam.';
+          paymentMethodName = 'Transfer Bank';
+          break;
+        case 'ewallet':
+          paymentMessage = 'Pembayaran via E-Wallet berhasil! Pesanan akan segera diproses.';
+          paymentMethodName = 'E-Wallet';
+          break;
+        case 'cod':
+          paymentMessage = 'Pesanan COD berhasil dibuat. Bayar saat kurir datang.';
+          paymentMethodName = 'Cash on Delivery (COD)';
+          break;
+        case 'credit':
+          paymentMessage = 'Pembayaran kartu kredit berhasil! Invoice akan dikirim ke email Anda.';
+          paymentMethodName = 'Kartu Kredit/Debit';
+          break;
+      }
+
+      // Tampilkan notifikasi sukses dengan detail lengkap
+      showNotification(`✅ Pembayaran ${paymentMethodName} Berhasil!\n\nTotal: Rp ${total.toLocaleString('id-ID')}\n\n${paymentMessage}`, 'success');
+
+      // Simpan data pemesanan
+      const orderData = {
+        items: cart,
+        total: total,
+        paymentMethod: paymentMethodName,
+        recipientName: recipientName,
+        recipientPhone: recipientPhone,
+        address: address,
+        subDistrict: subDistrict,
+        district: district,
+        province: province,
+        postalCode: postalCode,
+        timestamp: new Date().toLocaleString('id-ID'),
+        orderNumber: 'ORD-' + Date.now()
+      };
+      
+      localStorage.setItem('lastOrder', JSON.stringify(orderData));
+
+      // Clear cart
+      cart = [];
+      localStorage.setItem('cart', JSON.stringify(cart));
+
+      // Redirect to home
+      setTimeout(() => {
+        window.location.href = 'home.html';
+      }, 3000);
+    }
+
+    // Load cart on page load
+    loadCartSummary();
+
+    // Add event listener untuk menampilkan notifikasi saat payment method berubah
+    document.querySelectorAll('input[name="payment"]').forEach(radio => {
+      radio.addEventListener('change', function() {
+        let methodName = '';
+        switch(this.value) {
+          case 'transfer': methodName = 'Transfer Bank'; break;
+          case 'ewallet': methodName = 'E-Wallet'; break;
+          case 'cod': methodName = 'Cash on Delivery'; break;
+          case 'credit': methodName = 'Kartu Kredit/Debit'; break;
+        }
+        showNotification(`✨ Metode pembayaran: ${methodName}`, 'info');
+      });
+    });
+
+    // Set up interval to check if cart changes from other tabs/windows
+    setInterval(() => {
+      const newCart = JSON.parse(localStorage.getItem('cart')) || [];
+      if (JSON.stringify(newCart) !== JSON.stringify(cart)) {
+        cart = newCart;
+        loadCartSummary();
+        if (cart.length > 0) {
+          showNotification('🛍️ Keranjang diperbarui!', 'success');
+        }
+      }
+    }, 1000);
+  </script>
+</body>
+</html>
